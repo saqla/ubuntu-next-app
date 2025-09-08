@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "commit": "git add . && git commit",
+    "push": "git add . && git commit && git push origin main"
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.2",
